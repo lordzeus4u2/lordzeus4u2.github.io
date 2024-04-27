@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    border-radius: 24px;
+    
+  }
+  body{
+    background-color: lightgray;
+  
+
+border-radius: 25px;  }
+  /* styling the background image at the header */
+  .image{
+    background-image: url(webpage.jpeg.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px 20px 0px 0px;
+    
+  }
+  .container{
+    margin: 20px;
+    width: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  /* styling the nav-bar */
+  nav{
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    font-family: Franklin Gothic medium;
+
+  }
+  
+  .hyperlink{
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+    text-decoration: none;
+  }
+  /* adding the hover effect */
+
+  .hyperlink:hover{
+    transition: 0.88s;
+    color: black ;
+    background-color: khaki;
+    border: solid;
+    border-width: 1px;
+    border-radius: 25px;
+  }
+  .logo{
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+button{
+  border-radius: 25px;
+  width: 25vmin;
+  height: 4vmin;
+  border: outset;
+  border-color: black;
+}
+/* adding/styling the middle content */
+.pic{
+    top: 20px;
+    cursor: pointer;
+    width: 90%;
+    margin: auto;
+    font-family: geneva;
+    font-style: italic;
+}
+    
+.column{
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+}
+p{
+  font-size: 12px;
+  font-family: sans-serif;
+}
+hr{
+  width: 90%;
+
+}
+/* applying the scrool effect */
+.features{
+  width: 80%;
+  height: 150px;
+  display: flex;
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  margin: auto;
+  color: black;
+  background-color: gray;
+
+}
+.scroll {
+  flex: 30%;
+  padding: 10px;
+
+}
+h2{
+  text-align: center;
+margin: 10px;
+padding: 10px;
+border: double;
+border-radius: 25px; 
+border-color: black; 
+}
+/* general image property */
+img{
+  width: 100%;
+  height: 300px;
+}
+/* styling the mews featured news margin */
+
+#content{
+    margin-bottom:20px;
+    font-weight:;
+}
+
+#content>img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 30px; 
+    margin-right: 15px;   
+}
+#content>h5{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+
+
